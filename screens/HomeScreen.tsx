@@ -13,7 +13,11 @@ import {DrawerToggle, headerOptions} from '../menus/HeaderComponents';
 import {GraphManager} from '../graph/GraphManager';
 
 const Stack = createStackNavigator();
-const UserState = React.createContext({userLoading: true, userName: ''});
+const UserState = React.createContext({
+  userLoading: true,
+  userName: '',
+  userEmail: '',
+});
 
 type HomeScreenState = {
   userLoading: boolean;
@@ -25,25 +29,24 @@ const HomeComponent = () => {
 
   return (
     <View style={styles.container}>
+      <Image style={styles.logo} source={require('../assets/cbslogo.png')} />
       <ActivityIndicator animating={userState.userLoading} size="large" />
       {userState.userLoading ? null : (
-        <Text style={styles.heading}>Hello {userState.userName}!</Text>
+        <Text style={styles.heading}>Hello {userState.userName}! </Text>
       )}
+
       <View style={styles.row}>
-        <Text style={styles.label}>University: </Text>
+        <Text style={styles.label}>Universitet: </Text>
         <Text> Copenhagen Business School (CBS) </Text>
       </View>
+
       <View style={styles.row}>
-        <Text style={styles.label}>CPR: </Text>
-        <Text> xxxxxx-xxxx </Text>
-      </View>
-      <View style={styles.row}>
-        <Text style={styles.label}>Adresse: </Text>
-        <Text> xxxxxxxxxx </Text>
+        <Text style={styles.label}>Birthday: </Text>
+        <Text> xxxxxx </Text>
       </View>
       <View style={styles.row}>
         <Text style={styles.label}>Mail: </Text>
-        <Text> xxxxxxxxx </Text>
+        <Text> {userState.userEmail} </Text>
       </View>
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Image
@@ -64,9 +67,16 @@ export default class HomeScreen extends React.Component {
     try {
       // Get the signed-in user from Graph
       const user = await GraphManager.getUserAsync();
+      const photo = await GraphManager.getUserPhotoAsync();
+
       // Set the user name to the user's given name
       // eslint-disable-next-line react/no-did-mount-set-state
-      this.setState({userName: user.givenName, userLoading: false});
+      this.setState({
+        userName: user.displayName,
+        userLoading: false,
+        userEmail: user.mail !== null ? user.mail : user.userPrincipalName,
+        userPhoto: photo.profilePhoto,
+      });
     } catch (error) {
       Alert.alert(
         'Error getting user',
@@ -101,7 +111,7 @@ export default class HomeScreen extends React.Component {
 
 const styles = StyleSheet.create({
   heading: {
-    fontSize: 20,
+    fontSize: 15,
     textAlign: 'left',
     letterSpacing: 5,
     textDecorationColor: '#fff',
@@ -126,6 +136,11 @@ const styles = StyleSheet.create({
   },
   image: {
     width: 325,
+    height: 200,
+    resizeMode: 'contain',
+  },
+  logo: {
+    width: 400,
     height: 200,
     resizeMode: 'contain',
   },

@@ -30,4 +30,8 @@ export class GraphManager {
     // GET /me
     return graphClient.api('/me').get();
   };
+  static getUserPhotoAsync = async () => {
+    // GET /me
+    return graphClient.api('/me/photo/$value').get();
+  };
 }

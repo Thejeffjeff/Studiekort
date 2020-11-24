@@ -46,7 +46,7 @@ export default class SignInScreen extends React.Component {
   render() {
     const navigation = this.context;
     navigation.setOptions({
-      title: 'Digital Studiekort',
+      title: 'Digitalt Studiekort',
       headerShown: true,
     });
 
@@ -56,7 +56,7 @@ export default class SignInScreen extends React.Component {
           source={require('../assets/cbs.jpg')}
           style={styles.image}>
           <View style={styles.overlay}>
-            <Text style={styles.textStyle}>Welcome to digitale studiekort</Text>
+            <Text style={styles.textStyle}>Welcome to Digitalt studiekort</Text>
             <Button title="Log in with mail" onPress={this._signInAsync} />
           </View>
         </ImageBackground>
