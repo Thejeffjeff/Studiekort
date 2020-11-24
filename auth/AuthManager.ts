@@ -19,7 +19,7 @@ const config: AuthConfiguration = {
     tokenEndpoint: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
   },
 };
-
+//working
 export class AuthManager {
   static signInAsync = async () => {
     const result = await authorize(config);
