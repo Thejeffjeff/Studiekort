@@ -7,10 +7,12 @@ import {
   View,
   Alert,
   Image,
+  Button,
 } from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {DrawerToggle, headerOptions} from '../menus/HeaderComponents';
 import {GraphManager} from '../graph/GraphManager';
+import CameraComponent from './Camera';
 
 const Stack = createStackNavigator();
 const UserState = React.createContext({
@@ -22,11 +24,13 @@ const UserState = React.createContext({
 type HomeScreenState = {
   userLoading: boolean;
   userName: string;
+  userEmail: string;
 };
+
+//Funktionen skal navigere til komponenten "DetailScreen"
 
 const HomeComponent = () => {
   const userState = React.useContext(UserState);
-
   return (
     <View style={styles.container}>
       <Image style={styles.logo} source={require('../assets/cbslogo.png')} />
@@ -48,21 +52,31 @@ const HomeComponent = () => {
         <Text style={styles.label}>Mail: </Text>
         <Text> {userState.userEmail} </Text>
       </View>
+
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+        <Text> Picture is not added</Text>
+        <Button title="Upload" onPress={() => {}} />
+        {/* ffew
         <Image
           style={styles.image}
           source={require('../assets/studentcard_example.jpeg')}
         />
+        */}
       </View>
     </View>
   );
 };
 
+interface Props {
+  navigation: any;
+}
 export default class HomeScreen extends React.Component {
   state: HomeScreenState = {
     userLoading: true,
     userName: '',
+    userEmail: '',
   };
+
   async componentDidMount() {
     try {
       // Get the signed-in user from Graph
@@ -90,7 +104,6 @@ export default class HomeScreen extends React.Component {
       );
     }
   }
-
   render() {
     return (
       <UserState.Provider value={this.state}>
@@ -103,6 +116,7 @@ export default class HomeScreen extends React.Component {
               headerLeft: () => <DrawerToggle />,
             }}
           />
+          <Stack.Screen name="Camera" component={CameraComponent} />
         </Stack.Navigator>
       </UserState.Provider>
     );

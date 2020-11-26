@@ -16,13 +16,13 @@ import {
 } from '@react-navigation/drawer';
 import {NavigationContext} from '@react-navigation/native';
 import {AuthManager} from '../auth/AuthManager';
-import HomeScreen from '../screens/HomeScreen';
 import CalendarScreen from '../screens/CalendarScreen';
 import {GraphManager} from '../graph/GraphManager';
 import About from '../screens/About';
 import Settings from '../screens/Settings';
 import Studierabat from '../screens/Studierabt';
 import CameraComponent from '../screens/Camera';
+import HomeScreen from '../screens/HomeScreen';
 
 const Drawer = createDrawerNavigator();
 
@@ -62,7 +62,6 @@ export default class DrawerMenuContent extends React.Component {
     try {
       // Get the signed-in user from Graph
       const user = await GraphManager.getUserAsync();
-      const photo = await GraphManager.getUserPhotoAsync();
 
       // Update UI with display name and email
       // eslint-disable-next-line react/no-did-mount-set-state
@@ -71,8 +70,6 @@ export default class DrawerMenuContent extends React.Component {
         // Work/School accounts have email address in mail attribute
         // Personal accounts have it in userPrincipalName
         userEmail: user.mail !== null ? user.mail : user.userPrincipalName,
-
-        userPhoto: photo.profilePhoto,
       });
     } catch (error) {
       Alert.alert(
