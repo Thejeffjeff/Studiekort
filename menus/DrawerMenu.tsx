@@ -138,11 +138,6 @@ export default class DrawerMenuContent extends React.Component {
           options={{drawerLabel: 'Student Discount'}}
         />
         <Drawer.Screen
-          name="Register Student Card"
-          component={CameraComponent}
-          options={{drawerLabel: 'Register Student Card'}}
-        />
-        <Drawer.Screen
           name="Settings"
           component={Settings}
           options={{drawerLabel: 'Settings'}}

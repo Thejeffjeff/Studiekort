@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {
@@ -27,10 +28,9 @@ type HomeScreenState = {
   userEmail: string;
 };
 
-//Funktionen skal navigere til komponenten "DetailScreen"
-
-const HomeComponent = () => {
+const HomeComponent = ({navigation}: {navigation: any}) => {
   const userState = React.useContext(UserState);
+  //Funktionen skal navigere til komponenten "DetailScreen"
   return (
     <View style={styles.container}>
       <Image style={styles.logo} source={require('../assets/cbslogo.png')} />
@@ -55,7 +55,12 @@ const HomeComponent = () => {
 
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Text> Picture is not added</Text>
-        <Button title="Upload" onPress={() => {}} />
+        <Button
+          title="Upload"
+          onPress={() => {
+            navigation.navigate('Camera');
+          }}
+        />
         {/* ffew
         <Image
           style={styles.image}
@@ -67,9 +72,6 @@ const HomeComponent = () => {
   );
 };
 
-interface Props {
-  navigation: any;
-}
 export default class HomeScreen extends React.Component {
   state: HomeScreenState = {
     userLoading: true,
@@ -107,7 +109,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <UserState.Provider value={this.state}>
-        <Stack.Navigator screenOptions={headerOptions}>
+        <Stack.Navigator initialRouteName="Home" screenOptions={headerOptions}>
           <Stack.Screen
             name="home"
             component={HomeComponent}

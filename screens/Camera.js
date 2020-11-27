@@ -1,6 +1,6 @@
 'use strict';
 import React, {PureComponent} from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View, Button} from 'react-native';
 import {RNCamera} from 'react-native-camera';
 import {Header} from 'react-native-elements';
 import {Icon} from 'react-native-elements';
@@ -9,19 +9,16 @@ export default class CameraComponent extends PureComponent {
   handleNavigation = () => {
     this.props.navigation.openDrawer();
   };
+  handleTakePhoto = async () => {
+    if (!this.cameraRef.current) {
+      return;
+    }
+    const result = await this.cameraRef.current.takePictureAsync();
+    this.setState({lastPhoto: result.uri});
+  };
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.mainContainer}>
-          <TouchableOpacity style={styles.icon} onPress={this.handleNavigation}>
-            <Icon
-              iconStyle={{marginLeft: 10, marginTop: 10, color: 'white'}}
-              size={30}
-              name="menu"
-            />
-          </TouchableOpacity>
-          <Text style={styles.txt}>Camera</Text>
-        </View>
         <RNCamera
           ref={(ref) => {
             this.camera = ref;
@@ -40,7 +37,7 @@ export default class CameraComponent extends PureComponent {
           <TouchableOpacity
             onPress={this.takePicture.bind(this)}
             style={styles.capture}>
-            <Text style={{fontSize: 14}}> SNAP </Text>
+            <Button title="SNAP" onPress={this.handleTakePhoto} />
           </TouchableOpacity>
         </View>
       </View>
