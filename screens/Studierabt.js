@@ -8,9 +8,12 @@ import {
   StatusBar,
   Button,
   SafeAreaView,
+  ScrollView,
+  TouchableOpacity,
 } from 'react-native';
 import Header from './Header';
 import {Icon} from 'react-native-elements';
+import Places from '../screens/ExtraComponent/Places';
 
 export default class Studierabat extends Component {
   //Denne del rendere skærmen
@@ -29,13 +32,115 @@ export default class Studierabat extends Component {
             <View style={styles.searchBar}>
               <Icon name="search" size={20} style={{marginRight: 10}} />
               <TextInput
-                placeholder="Search"
+                placeholder="Suggestions"
                 placeholderTextColor="grey"
                 style={styles.inputText}
               />
             </View>
             <View style={styles.textContainer}>
-              <Text>Her skal lokation placeres</Text>
+              <ScrollView>
+                <View>
+                  {/*Laver et view, hvor det muligt at trykke på komponenten "Products",
+                             hvor komponenten "products" tager imod props: navn, pris, rabt og antal reservationer.*/}
+                  <View style={styles.ScrollStyle}>
+                    <TouchableOpacity>
+                      <Places
+                        imageUri={require('../assets/asos.png')}
+                        name="Asos"
+                        price="20"
+                      />
+                    </TouchableOpacity>
+
+                    <TouchableOpacity>
+                      <Places
+                        imageUri={require('../assets/hiko.jpg')}
+                        name="Hiko Sandwich"
+                        price="15"
+                      />
+                    </TouchableOpacity>
+                    <Places
+                      imageUri={require('../assets/magasin.png')}
+                      name="Magasin"
+                      price="15"
+                    />
+                    <Places
+                      imageUri={require('../assets/Humac.jpg')}
+                      name="Humac"
+                      price="10"
+                    />
+                    <Places
+                      imageUri={require('../assets/apple.png')}
+                      name="Apple"
+                      price="10"
+                    />
+                    <Places
+                      imageUri={require('../assets/Microsoft.jpg')}
+                      name="Microsoft"
+                      price="15"
+                    />
+                    <Places
+                      imageUri={require('../assets/espresso.png')}
+                      name="Espresso House"
+                      price="15"
+                    />
+                    <Places
+                      imageUri={require('../assets/Urban.jpg')}
+                      name="Urban Outfitters"
+                      price="20"
+                    />
+                    <Places
+                      imageUri={require('../assets/Illum.png')}
+                      name="Illum"
+                      price="10%"
+                    />
+                    <Places
+                      imageUri={require('../assets/dalle.jpeg')}
+                      name="Dalle Valle"
+                      price="10%"
+                    />
+                    <Places
+                      imageUri={require('../assets/Uniqlo.png')}
+                      name="Uniqlo"
+                      price="15"
+                    />
+                    <Places
+                      imageUri={require('../assets/hm.jpg')}
+                      name="H&M"
+                      price="15"
+                    />
+                    <Places
+                      imageUri={require('../assets/Zara.png')}
+                      name="Zara"
+                      price="15%"
+                    />
+                    <Places
+                      imageUri={require('../assets/justeat.jpeg')}
+                      name="Just Eat"
+                      price="15%"
+                    />
+                    <Places
+                      imageUri={require('../assets/kfc.png')}
+                      name="KFC"
+                      price="20"
+                    />
+                    <Places
+                      imageUri={require('../assets/burgerking.jpg')}
+                      name="Burger King"
+                      price="20"
+                    />
+                    <Places
+                      imageUri={require('../assets/Sportmaster.jpg')}
+                      name="Sport Master"
+                      price="10"
+                    />
+                    <Places
+                      imageUri={require('../assets/starbucks.png')}
+                      name="Starbuks"
+                      price="10"
+                    />
+                  </View>
+                </View>
+              </ScrollView>
             </View>
           </View>
         </View>
@@ -50,10 +155,9 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   textContainer: {
-    flex: 0,
-    marginTop: 200,
+    marginTop: 10,
     alignItems: 'center',
-    height: 100,
+    height: 700,
   },
   container: {
     flex: 1,
@@ -84,5 +188,12 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontSize: 20,
+  },
+  ScrollStyle: {
+    paddingHorizontal: 20,
+    marginTop: 0.1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
   },
 });
