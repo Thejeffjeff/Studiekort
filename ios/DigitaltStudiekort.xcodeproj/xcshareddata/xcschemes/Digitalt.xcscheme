@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "GraphTutorial.app"
-               BlueprintName = "GraphTutorial"
-               ReferencedContainer = "container:GraphTutorial.xcodeproj">
+               BuildableName = "Digitalt.app"
+               BlueprintName = "Digitalt"
+               ReferencedContainer = "container:Digitalt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "GraphTutorialTests.xctest"
-               BlueprintName = "GraphTutorialTests"
-               ReferencedContainer = "container:GraphTutorial.xcodeproj">
+               BuildableName = "DigitaltTests.xctest"
+               BlueprintName = "DigitaltTests"
+               ReferencedContainer = "container:Digitalt.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GraphTutorial.app"
-            BlueprintName = "GraphTutorial"
-            ReferencedContainer = "container:GraphTutorial.xcodeproj">
+            BuildableName = "Digitalt.app"
+            BlueprintName = "Digitalt"
+            ReferencedContainer = "container:Digitalt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GraphTutorial.app"
-            BlueprintName = "GraphTutorial"
-            ReferencedContainer = "container:GraphTutorial.xcodeproj">
+            BuildableName = "Digitalt.app"
+            BlueprintName = "Digitalt"
+            ReferencedContainer = "container:Digitalt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

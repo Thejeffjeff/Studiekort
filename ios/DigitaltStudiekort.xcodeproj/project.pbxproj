@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* GraphTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GraphTutorialTests.m */; };
+		00E356F31AD99517003FC87E /* DigitaltStudiekortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DigitaltStudiekortTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* GraphTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GraphTutorialTests.m */; };
-		4442A8829C37D70C4BC31084 /* libPods-GraphTutorial-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43394EAF2CF2D7199A8FAFA7 /* libPods-GraphTutorial-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* DigitaltStudiekortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DigitaltStudiekortTests.m */; };
+		4442A8829C37D70C4BC31084 /* libPods-DigitaltStudiekort-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43394EAF2CF2D7199A8FAFA7 /* libPods-DigitaltStudiekort-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A9D7093DFC75B9BDCD595BCA /* libPods-GraphTutorial-GraphTutorialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631ACAF3263347F0F46E0551 /* libPods-GraphTutorial-GraphTutorialTests.a */; };
-		C2492D6EE2667FC9671BD069 /* libPods-GraphTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283E44E7A3B6B770EB2EB9D /* libPods-GraphTutorial.a */; };
-		D82A887C87599CDCCAA1C2AF /* libPods-GraphTutorial-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 955790B8E0503499B0E909A1 /* libPods-GraphTutorial-tvOS.a */; };
+		A9D7093DFC75B9BDCD595BCA /* libPods-DigitaltStudiekort-DigitaltStudiekortTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631ACAF3263347F0F46E0551 /* libPods-DigitaltStudiekort-DigitaltStudiekortTests.a */; };
+		C2492D6EE2667FC9671BD069 /* libPods-DigitaltStudiekort.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283E44E7A3B6B770EB2EB9D /* libPods-DigitaltStudiekort.a */; };
+		D82A887C87599CDCCAA1C2AF /* libPods-DigitaltStudiekort-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 955790B8E0503499B0E909A1 /* libPods-DigitaltStudiekort-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = GraphTutorial;
+			remoteInfo = DigitaltStudiekort;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "GraphTutorial-tvOS";
+			remoteInfo = "DigitaltStudiekort-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* GraphTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DigitaltStudiekortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitaltStudiekortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* GraphTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphTutorialTests.m; sourceTree = "<group>"; };
-		109886C12F9D0A6B56D4D072 /* Pods-GraphTutorial-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-tvOS/Pods-GraphTutorial-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		1283E44E7A3B6B770EB2EB9D /* libPods-GraphTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* GraphTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GraphTutorial/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GraphTutorial/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GraphTutorial/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GraphTutorial/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GraphTutorial/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* GraphTutorial-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphTutorial-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* GraphTutorial-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphTutorial-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43394EAF2CF2D7199A8FAFA7 /* libPods-GraphTutorial-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphTutorial-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631ACAF3263347F0F46E0551 /* libPods-GraphTutorial-GraphTutorialTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphTutorial-GraphTutorialTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74E5D3F2F44BE53DE5C1F4CE /* Pods-GraphTutorial-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-tvOSTests/Pods-GraphTutorial-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		78AC56DC9D0A038C5D724E2E /* Pods-GraphTutorial-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-tvOS/Pods-GraphTutorial-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GraphTutorial/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		835877F4FF5C74286C528A3E /* Pods-GraphTutorial-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-tvOSTests/Pods-GraphTutorial-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		88E69E44DE82E5A8D2C102DC /* Pods-GraphTutorial-GraphTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-GraphTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-GraphTutorialTests/Pods-GraphTutorial-GraphTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
-		955790B8E0503499B0E909A1 /* libPods-GraphTutorial-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphTutorial-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A636F5B6590CA18B54AF17E8 /* Pods-GraphTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial.debug.xcconfig"; path = "Target Support Files/Pods-GraphTutorial/Pods-GraphTutorial.debug.xcconfig"; sourceTree = "<group>"; };
-		AE9B524A7424D4D7F1812494 /* Pods-GraphTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial.release.xcconfig"; path = "Target Support Files/Pods-GraphTutorial/Pods-GraphTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DigitaltStudiekortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitaltStudiekortTests.m; sourceTree = "<group>"; };
+		109886C12F9D0A6B56D4D072 /* Pods-DigitaltStudiekort-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-tvOS/Pods-DigitaltStudiekort-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1283E44E7A3B6B770EB2EB9D /* libPods-DigitaltStudiekort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitaltStudiekort.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* DigitaltStudiekort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitaltStudiekort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DigitaltStudiekort/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DigitaltStudiekort/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DigitaltStudiekort/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DigitaltStudiekort/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DigitaltStudiekort/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitaltStudiekort-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* DigitaltStudiekort-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DigitaltStudiekort-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43394EAF2CF2D7199A8FAFA7 /* libPods-DigitaltStudiekort-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitaltStudiekort-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631ACAF3263347F0F46E0551 /* libPods-DigitaltStudiekort-DigitaltStudiekortTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitaltStudiekort-DigitaltStudiekortTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E5D3F2F44BE53DE5C1F4CE /* Pods-DigitaltStudiekort-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-tvOSTests/Pods-DigitaltStudiekort-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		78AC56DC9D0A038C5D724E2E /* Pods-DigitaltStudiekort-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-tvOS/Pods-DigitaltStudiekort-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DigitaltStudiekort/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835877F4FF5C74286C528A3E /* Pods-DigitaltStudiekort-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-tvOSTests/Pods-DigitaltStudiekort-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88E69E44DE82E5A8D2C102DC /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-DigitaltStudiekortTests.release.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-DigitaltStudiekortTests/Pods-DigitaltStudiekort-DigitaltStudiekortTests.release.xcconfig"; sourceTree = "<group>"; };
+		955790B8E0503499B0E909A1 /* libPods-DigitaltStudiekort-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitaltStudiekort-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A636F5B6590CA18B54AF17E8 /* Pods-DigitaltStudiekort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort.debug.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort/Pods-DigitaltStudiekort.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9B524A7424D4D7F1812494 /* Pods-DigitaltStudiekort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort.release.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort/Pods-DigitaltStudiekort.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED52905E3C2E3D5D63602543 /* Pods-GraphTutorial-GraphTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTutorial-GraphTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphTutorial-GraphTutorialTests/Pods-GraphTutorial-GraphTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED52905E3C2E3D5D63602543 /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitaltStudiekort-DigitaltStudiekortTests.debug.xcconfig"; path = "Target Support Files/Pods-DigitaltStudiekort-DigitaltStudiekortTests/Pods-DigitaltStudiekort-DigitaltStudiekortTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D7093DFC75B9BDCD595BCA /* libPods-GraphTutorial-GraphTutorialTests.a in Frameworks */,
+				A9D7093DFC75B9BDCD595BCA /* libPods-DigitaltStudiekort-DigitaltStudiekortTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2492D6EE2667FC9671BD069 /* libPods-GraphTutorial.a in Frameworks */,
+				C2492D6EE2667FC9671BD069 /* libPods-DigitaltStudiekort.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82A887C87599CDCCAA1C2AF /* libPods-GraphTutorial-tvOS.a in Frameworks */,
+				D82A887C87599CDCCAA1C2AF /* libPods-DigitaltStudiekort-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4442A8829C37D70C4BC31084 /* libPods-GraphTutorial-tvOSTests.a in Frameworks */,
+				4442A8829C37D70C4BC31084 /* libPods-DigitaltStudiekort-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* GraphTutorialTests */ = {
+		00E356EF1AD99517003FC87E /* DigitaltStudiekortTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* GraphTutorialTests.m */,
+				00E356F21AD99517003FC87E /* DigitaltStudiekortTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = GraphTutorialTests;
+			path = DigitaltStudiekortTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* GraphTutorial */ = {
+		13B07FAE1A68108700A75B9A /* DigitaltStudiekort */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = GraphTutorial;
+			name = DigitaltStudiekort;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1283E44E7A3B6B770EB2EB9D /* libPods-GraphTutorial.a */,
-				631ACAF3263347F0F46E0551 /* libPods-GraphTutorial-GraphTutorialTests.a */,
-				955790B8E0503499B0E909A1 /* libPods-GraphTutorial-tvOS.a */,
-				43394EAF2CF2D7199A8FAFA7 /* libPods-GraphTutorial-tvOSTests.a */,
+				1283E44E7A3B6B770EB2EB9D /* libPods-DigitaltStudiekort.a */,
+				631ACAF3263347F0F46E0551 /* libPods-DigitaltStudiekort-DigitaltStudiekortTests.a */,
+				955790B8E0503499B0E909A1 /* libPods-DigitaltStudiekort-tvOS.a */,
+				43394EAF2CF2D7199A8FAFA7 /* libPods-DigitaltStudiekort-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* GraphTutorial */,
+				13B07FAE1A68108700A75B9A /* DigitaltStudiekort */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* GraphTutorialTests */,
+				00E356EF1AD99517003FC87E /* DigitaltStudiekortTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				FEC49C0AC592E164BA8493DC /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* GraphTutorial.app */,
-				00E356EE1AD99517003FC87E /* GraphTutorialTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* GraphTutorial-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* GraphTutorial-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* DigitaltStudiekort.app */,
+				00E356EE1AD99517003FC87E /* DigitaltStudiekortTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* DigitaltStudiekort-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		FEC49C0AC592E164BA8493DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A636F5B6590CA18B54AF17E8 /* Pods-GraphTutorial.debug.xcconfig */,
-				AE9B524A7424D4D7F1812494 /* Pods-GraphTutorial.release.xcconfig */,
-				ED52905E3C2E3D5D63602543 /* Pods-GraphTutorial-GraphTutorialTests.debug.xcconfig */,
-				88E69E44DE82E5A8D2C102DC /* Pods-GraphTutorial-GraphTutorialTests.release.xcconfig */,
-				78AC56DC9D0A038C5D724E2E /* Pods-GraphTutorial-tvOS.debug.xcconfig */,
-				109886C12F9D0A6B56D4D072 /* Pods-GraphTutorial-tvOS.release.xcconfig */,
-				835877F4FF5C74286C528A3E /* Pods-GraphTutorial-tvOSTests.debug.xcconfig */,
-				74E5D3F2F44BE53DE5C1F4CE /* Pods-GraphTutorial-tvOSTests.release.xcconfig */,
+				A636F5B6590CA18B54AF17E8 /* Pods-DigitaltStudiekort.debug.xcconfig */,
+				AE9B524A7424D4D7F1812494 /* Pods-DigitaltStudiekort.release.xcconfig */,
+				ED52905E3C2E3D5D63602543 /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.debug.xcconfig */,
+				88E69E44DE82E5A8D2C102DC /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.release.xcconfig */,
+				78AC56DC9D0A038C5D724E2E /* Pods-DigitaltStudiekort-tvOS.debug.xcconfig */,
+				109886C12F9D0A6B56D4D072 /* Pods-DigitaltStudiekort-tvOS.release.xcconfig */,
+				835877F4FF5C74286C528A3E /* Pods-DigitaltStudiekort-tvOSTests.debug.xcconfig */,
+				74E5D3F2F44BE53DE5C1F4CE /* Pods-DigitaltStudiekort-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* GraphTutorialTests */ = {
+		00E356ED1AD99517003FC87E /* DigitaltStudiekortTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GraphTutorialTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DigitaltStudiekortTests" */;
 			buildPhases = (
 				0E0957A74223184F105B64A0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = GraphTutorialTests;
-			productName = GraphTutorialTests;
-			productReference = 00E356EE1AD99517003FC87E /* GraphTutorialTests.xctest */;
+			name = DigitaltStudiekortTests;
+			productName = DigitaltStudiekortTests;
+			productReference = 00E356EE1AD99517003FC87E /* DigitaltStudiekortTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* GraphTutorial */ = {
+		13B07F861A680F5B00A75B9A /* DigitaltStudiekort */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GraphTutorial" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DigitaltStudiekort" */;
 			buildPhases = (
 				AA6FE6087A0F920760688FEB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = GraphTutorial;
-			productName = GraphTutorial;
-			productReference = 13B07F961A680F5B00A75B9A /* GraphTutorial.app */;
+			name = DigitaltStudiekort;
+			productName = DigitaltStudiekort;
+			productReference = 13B07F961A680F5B00A75B9A /* DigitaltStudiekort.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* GraphTutorial-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphTutorial-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DigitaltStudiekort-tvOS" */;
 			buildPhases = (
 				36D0B018F5E48966E55310F1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "GraphTutorial-tvOS";
-			productName = "GraphTutorial-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* GraphTutorial-tvOS.app */;
+			name = "DigitaltStudiekort-tvOS";
+			productName = "DigitaltStudiekort-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* GraphTutorial-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* DigitaltStudiekort-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphTutorial-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DigitaltStudiekort-tvOSTests" */;
 			buildPhases = (
 				774DC874BECB2FF50FDB8365 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "GraphTutorial-tvOSTests";
-			productName = "GraphTutorial-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* GraphTutorial-tvOSTests.xctest */;
+			name = "DigitaltStudiekort-tvOSTests";
+			productName = "DigitaltStudiekort-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* DigitaltStudiekort-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GraphTutorial" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DigitaltStudiekort" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* GraphTutorial */,
-				00E356ED1AD99517003FC87E /* GraphTutorialTests */,
-				2D02E47A1E0B4A5D006451C7 /* GraphTutorial-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* GraphTutorial-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* DigitaltStudiekort */,
+				00E356ED1AD99517003FC87E /* DigitaltStudiekortTests */,
+				2D02E47A1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* DigitaltStudiekort-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GraphTutorial-GraphTutorialTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DigitaltStudiekort-DigitaltStudiekortTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,7 +405,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GraphTutorial-GraphTutorialTests/Pods-GraphTutorial-GraphTutorialTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DigitaltStudiekort-DigitaltStudiekortTests/Pods-DigitaltStudiekort-DigitaltStudiekortTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -446,7 +446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphTutorial-GraphTutorialTests/Pods-GraphTutorial-GraphTutorialTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitaltStudiekort-DigitaltStudiekortTests/Pods-DigitaltStudiekort-DigitaltStudiekortTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -478,7 +478,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GraphTutorial-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DigitaltStudiekort-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -491,7 +491,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GraphTutorial/Pods-GraphTutorial-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DigitaltStudiekort/Pods-DigitaltStudiekort-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -532,7 +532,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphTutorial/Pods-GraphTutorial-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitaltStudiekort/Pods-DigitaltStudiekort-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		774DC874BECB2FF50FDB8365 /* [CP] Check Pods Manifest.lock */ = {
@@ -550,7 +550,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GraphTutorial-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DigitaltStudiekort-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -572,7 +572,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GraphTutorial-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DigitaltStudiekort-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -624,7 +624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* GraphTutorialTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DigitaltStudiekortTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +650,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* GraphTutorialTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* DigitaltStudiekortTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,12 +659,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* GraphTutorial */;
+			target = 13B07F861A680F5B00A75B9A /* DigitaltStudiekort */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* GraphTutorial-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* DigitaltStudiekort-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -672,14 +672,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED52905E3C2E3D5D63602543 /* Pods-GraphTutorial-GraphTutorialTests.debug.xcconfig */;
+			baseConfigurationReference = ED52905E3C2E3D5D63602543 /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = GraphTutorialTests/Info.plist;
+				INFOPLIST_FILE = DigitaltStudiekortTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -689,17 +689,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphTutorial.app/GraphTutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaltStudiekort.app/DigitaltStudiekort";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88E69E44DE82E5A8D2C102DC /* Pods-GraphTutorial-GraphTutorialTests.release.xcconfig */;
+			baseConfigurationReference = 88E69E44DE82E5A8D2C102DC /* Pods-DigitaltStudiekort-DigitaltStudiekortTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = GraphTutorialTests/Info.plist;
+				INFOPLIST_FILE = DigitaltStudiekortTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -709,19 +709,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphTutorial.app/GraphTutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaltStudiekort.app/DigitaltStudiekort";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A636F5B6590CA18B54AF17E8 /* Pods-GraphTutorial.debug.xcconfig */;
+			baseConfigurationReference = A636F5B6590CA18B54AF17E8 /* Pods-DigitaltStudiekort.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = GraphTutorial/Info.plist;
+				INFOPLIST_FILE = DigitaltStudiekort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -729,7 +729,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GraphTutorial;
+				PRODUCT_NAME = DigitaltStudiekort;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,12 +738,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE9B524A7424D4D7F1812494 /* Pods-GraphTutorial.release.xcconfig */;
+			baseConfigurationReference = AE9B524A7424D4D7F1812494 /* Pods-DigitaltStudiekort.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = GraphTutorial/Info.plist;
+				INFOPLIST_FILE = DigitaltStudiekort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -751,7 +751,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GraphTutorial;
+				PRODUCT_NAME = DigitaltStudiekort;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -759,7 +759,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78AC56DC9D0A038C5D724E2E /* Pods-GraphTutorial-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 78AC56DC9D0A038C5D724E2E /* Pods-DigitaltStudiekort-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -770,14 +770,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GraphTutorial-tvOS/Info.plist";
+				INFOPLIST_FILE = "DigitaltStudiekort-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphTutorial-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.DigitaltStudiekort-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -787,7 +787,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109886C12F9D0A6B56D4D072 /* Pods-GraphTutorial-tvOS.release.xcconfig */;
+			baseConfigurationReference = 109886C12F9D0A6B56D4D072 /* Pods-DigitaltStudiekort-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -798,14 +798,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GraphTutorial-tvOS/Info.plist";
+				INFOPLIST_FILE = "DigitaltStudiekort-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphTutorial-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.DigitaltStudiekort-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -815,7 +815,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 835877F4FF5C74286C528A3E /* Pods-GraphTutorial-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 835877F4FF5C74286C528A3E /* Pods-DigitaltStudiekort-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -825,24 +825,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GraphTutorial-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "DigitaltStudiekort-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphTutorial-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.DigitaltStudiekort-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphTutorial-tvOS.app/GraphTutorial-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaltStudiekort-tvOS.app/DigitaltStudiekort-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74E5D3F2F44BE53DE5C1F4CE /* Pods-GraphTutorial-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 74E5D3F2F44BE53DE5C1F4CE /* Pods-DigitaltStudiekort-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -852,17 +852,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GraphTutorial-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "DigitaltStudiekort-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphTutorial-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.DigitaltStudiekort-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphTutorial-tvOS.app/GraphTutorial-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaltStudiekort-tvOS.app/DigitaltStudiekort-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -983,7 +983,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GraphTutorialTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DigitaltStudiekortTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -992,7 +992,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GraphTutorial" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DigitaltStudiekort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1001,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphTutorial-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DigitaltStudiekort-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1010,7 +1010,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphTutorial-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DigitaltStudiekort-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1019,7 +1019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GraphTutorial" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DigitaltStudiekort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

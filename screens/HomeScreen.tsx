@@ -13,7 +13,7 @@ import {
 import {createStackNavigator} from '@react-navigation/stack';
 import {DrawerToggle, headerOptions} from '../menus/HeaderComponents';
 import {GraphManager} from '../graph/GraphManager';
-import CameraComponent from './Camera';
+import ImageProvider from './Imageprovider';
 
 const Stack = createStackNavigator();
 const UserState = React.createContext({
@@ -28,12 +28,12 @@ type HomeScreenState = {
   userEmail: string;
 };
 
-const HomeComponent = ({navigation}: {navigation: any}) => {
+const HomeComponent = () => {
   const userState = React.useContext(UserState);
   //Funktionen skal navigere til komponenten "DetailScreen"
   return (
     <View style={styles.container}>
-      <Image style={styles.logo} source={require('../assets/cbslogo.png')} />
+      <Image style={styles.logo} source={require('../assets/logocbs.png')} />
       <ActivityIndicator animating={userState.userLoading} size="large" />
       {userState.userLoading ? null : (
         <Text style={styles.heading}>Hello {userState.userName}! </Text>
@@ -54,19 +54,7 @@ const HomeComponent = ({navigation}: {navigation: any}) => {
       </View>
 
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text> Picture is not added</Text>
-        <Button
-          title="Upload"
-          onPress={() => {
-            navigation.navigate('Camera');
-          }}
-        />
-        {/* ffew
-        <Image
-          style={styles.image}
-          source={require('../assets/studentcard_example.jpeg')}
-        />
-        */}
+        <ImageProvider />
       </View>
     </View>
   );
@@ -118,7 +106,6 @@ export default class HomeScreen extends React.Component {
               headerLeft: () => <DrawerToggle />,
             }}
           />
-          <Stack.Screen name="Camera" component={CameraComponent} />
         </Stack.Navigator>
       </UserState.Provider>
     );
@@ -156,8 +143,9 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   logo: {
-    width: 400,
+    width: 300,
     height: 200,
     resizeMode: 'contain',
+    marginLeft: 50,
   },
 });

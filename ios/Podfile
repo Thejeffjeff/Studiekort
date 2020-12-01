@@ -3,12 +3,13 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'GraphTutorial' do
+target 'DigitaltStudiekort' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'GraphTutorialTests' do
+
+  target 'DigitaltStudiekortTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +24,10 @@ target 'GraphTutorial' do
   end
 end
 
-target 'GraphTutorial-tvOS' do
-  # Pods for GraphTutorial-tvOS
+target 'DigitaltStudiekort-tvOS' do
+  # Pods for DigitaltStudiekort-tvOS
 
-  target 'GraphTutorial-tvOSTests' do
+  target 'DigitaltStudiekort-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

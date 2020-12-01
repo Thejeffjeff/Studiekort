@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>GraphTutorial</string>
+	<string>DigitaltStudiekort</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -71,6 +71,10 @@
   <string>Octicons.ttf</string>
   <string>Zocial.ttf</string>
 </array>
+
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>For saving a photo.</string>
+
 <!-- Required with iOS 10 and higher -->
 <key>NSCameraUsageDescription</key>
 <string>Your message to user when the camera is accessed for the first time</string>
