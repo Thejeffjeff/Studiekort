@@ -11,7 +11,7 @@ export default class Places extends Component {
             source={this.props.imageUri}
           />
         </View>
-        {/* her opsætter vi teksten og angiver forskellige som så vil blive kaldt på mainPage, hvor vi derefter navngiver dem*/}
+        {/* her opsætter vi teksten og angiver forskellige som så vil blive kaldt på Studierabat komponenten, hvor vi derefter navngiver dem*/}
         <View
           style={{
             flex: 1,

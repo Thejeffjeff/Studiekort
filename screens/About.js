@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Image} from 'react-native';
 import Header from './Header';
 
+//Rendering af en header og view, hvori text komponent bliver kaldt. 
 export default class About extends Component {
   render() {
     return (
@@ -25,6 +26,7 @@ export default class About extends Component {
           </Text>
           <View
             style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+                     {/*Henter billedet fra assets via source*/}
             <Image
               style={styles.image}
               source={require('../assets/logo.png')}
@@ -36,6 +38,7 @@ export default class About extends Component {
   }
 }
 
+//Styling
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,

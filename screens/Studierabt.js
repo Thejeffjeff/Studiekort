@@ -40,8 +40,8 @@ export default class Studierabat extends Component {
             <View style={styles.textContainer}>
               <ScrollView>
                 <View>
-                  {/*Laver et view, hvor det muligt at trykke på komponenten "Products",
-                             hvor komponenten "products" tager imod props: navn, pris, rabt og antal reservationer.*/}
+                  {/*Laver et view, hvor det muligt at trykke på komponenten "places",
+                             yderligere tager komponenten "places" imod props: navn og rabat*/}
                   <View style={styles.ScrollStyle}>
                     <TouchableOpacity>
                       <Places

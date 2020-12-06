@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Icon} from 'react-native-elements';
 import {TouchableOpacity, StyleSheet, SafeAreaView, Text} from 'react-native';
 
+//Denne komponent er opsætningen af headeren, som tager en props som er title, som gør det muligt at navgive headeren, når den kaldes
+
 export default class Header extends Component {
   handleNavigation = () => {
     this.props.navigation.openDrawer();
@@ -10,6 +12,7 @@ export default class Header extends Component {
     const {title} = this.props;
     return (
       <SafeAreaView style={styles.container}>
+               {/*Når der trykkes aktiveres handleNavigation*/}
         <TouchableOpacity style={styles.icon} onPress={this.handleNavigation}>
           <Icon
             iconStyle={{marginLeft: 10, color: 'white'}}

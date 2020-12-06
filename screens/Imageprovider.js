@@ -18,7 +18,7 @@ export default class ImageProvider extends React.Component {
       resourcePath: {},
     };
   }
-
+  //Funktion giver muligheden for at oploade en fil, primært til web
   selectFile = () => {
     var options = {
       title: 'Select Image',
@@ -34,6 +34,7 @@ export default class ImageProvider extends React.Component {
       },
     };
 
+    //showImagePicker giver de forskellige muligheder som fx. tage billede eller opload billede fra ens smartphone, hvor respons gives ud fra det man vælger. 
     ImagePicker.showImagePicker(options, (res) => {
       console.log('Response = ', res);
 
@@ -53,6 +54,7 @@ export default class ImageProvider extends React.Component {
     });
   };
 
+  //Image tager imod en uri som tager fra resourcePath fra destination, hvorpå billede oploades.
   render() {
     return (
       <View style={styles.container}>

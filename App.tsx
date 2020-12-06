@@ -17,11 +17,11 @@ type Props = {
   navigation: StackNavigationProp<ParamListBase>;
 };
 
+//AuthStackComponent som bliver kaldt længere nede
 const AuthStackComponent = ({navigation}: Props) => {
   navigation.setOptions({
     headerShown: false,
   });
-  //AuthStack er ligesom stacknavigator som vi kender det.
   return (
     <AuthStack.Navigator initialRouteName="AuthLoading">
       <AuthStack.Screen name="AuthLoading" component={AuthLoadingScreen} />
@@ -31,6 +31,7 @@ const AuthStackComponent = ({navigation}: Props) => {
   );
 };
 
+//En NavigationContainer som indebære en Navigator samt en stackNavigator.
 export default function App() {
   return (
     <NavigationContainer>

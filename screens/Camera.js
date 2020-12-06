@@ -6,9 +6,11 @@ import {Header} from 'react-native-elements';
 import {Icon} from 'react-native-elements';
 
 export default class CameraComponent extends PureComponent {
+  //Funktion som åbner op for drawer
   handleNavigation = () => {
     this.props.navigation.openDrawer();
   };
+  //Asynkrong funktion med det formålt at tage et billede.
   handleTakePhoto = async () => {
     if (!this.cameraRef.current) {
       return;
@@ -16,6 +18,8 @@ export default class CameraComponent extends PureComponent {
     const result = await this.cameraRef.current.takePictureAsync();
     this.setState({lastPhoto: result.uri});
   };
+
+  //Rendering af kamera ved hjælp af RNCamera komponent.
   render() {
     return (
       <View style={styles.container}>
@@ -34,6 +38,7 @@ export default class CameraComponent extends PureComponent {
           }}
         />
         <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center'}}>
+          
           <TouchableOpacity
             onPress={this.takePicture.bind(this)}
             style={styles.capture}>

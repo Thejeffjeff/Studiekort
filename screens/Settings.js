@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import Header from './Header';
 
+//Denne komponent rendere indstillinger, som ikke har nogen funktioner.
 export default class Settings extends Component {
   render() {
     return (
