@@ -4,6 +4,9 @@ import {ActivityIndicator, Text, StyleSheet, View} from 'react-native';
 import {NavigationContext} from '@react-navigation/native';
 import AsyncStorage from '@react-native-community/async-storage';
 
+//Det er godkendelse af login. Det er den som tager imod en token og derfra loader videre til mainscreen(HomeScreen).
+//Dette kan kun lad sig gøre, hvis de rigtig informationer af brugeren er indtastet
+
 export default class AuthLoadingScreen extends React.Component {
   static contextType = NavigationContext;
 

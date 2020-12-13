@@ -16,6 +16,8 @@ import moment from 'moment';
 import {DrawerToggle, headerOptions} from '../menus/HeaderComponents';
 import {GraphManager} from '../graph/GraphManager';
 
+//Denne komponent er Kalender siden, som tager informationer fra den nuværene bruger og henter dens kalender informationer fra outlook
+
 const Stack = createStackNavigator();
 const initialState: CalendarScreenState = {loadingEvents: true, events: []};
 const CalendarState = React.createContext(initialState);

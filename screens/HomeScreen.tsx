@@ -15,6 +15,9 @@ import {DrawerToggle, headerOptions} from '../menus/HeaderComponents';
 import {GraphManager} from '../graph/GraphManager';
 import ImageProvider from './Imageprovider';
 
+//Dette er HomeScreen, hvilket er også den første side når man logger ind.
+
+//Oprettelse af stacknavigator
 const Stack = createStackNavigator();
 const UserState = React.createContext({
   userLoading: true,
@@ -30,7 +33,6 @@ type HomeScreenState = {
 
 const HomeComponent = () => {
   const userState = React.useContext(UserState);
-  //Funktionen skal navigere til komponenten "DetailScreen"
   return (
     <View style={styles.container}>
       <Image style={styles.logo} source={require('../assets/logocbs.png')} />

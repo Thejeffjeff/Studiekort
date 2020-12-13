@@ -21,8 +21,9 @@ import {GraphManager} from '../graph/GraphManager';
 import About from '../screens/About';
 import Settings from '../screens/Settings';
 import Studierabat from '../screens/Studierabt';
-import CameraComponent from '../screens/Camera';
 import HomeScreen from '../screens/HomeScreen';
+
+//Denne komponenter sikre side-menu på applikationen. Det er også her, hvor man kan navigerer rundt til de forskellie komponenter.
 
 const Drawer = createDrawerNavigator();
 

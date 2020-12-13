@@ -14,6 +14,7 @@ export default class Settings extends Component {
   render() {
     return (
       <View style={styles.mainContainer}>
+        {/** Header-komponent kaldes, hvor titlen angivnes som settings */}
         <Header
           navigation={this.props.navigation}
           title="Settings"

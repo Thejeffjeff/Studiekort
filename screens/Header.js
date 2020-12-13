@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {Icon} from 'react-native-elements';
 import {TouchableOpacity, StyleSheet, SafeAreaView, Text} from 'react-native';
 
-//Denne komponent er opsætningen af headeren, som tager en props som er title, som gør det muligt at navgive headeren, når den kaldes
+//Denne komponent er opsætningen af headeren, som tager en props som er title, som gør det muligt at navgive headeren, når den kaldes.
+//Grunden til at findes to header skyldes at den ene som er TS kommer fra Microsft graph og kan ikke implementeres på en komponent som er en JS typefil.
 
 export default class Header extends Component {
   handleNavigation = () => {

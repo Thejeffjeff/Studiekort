@@ -15,6 +15,8 @@ import Header from './Header';
 import {Icon} from 'react-native-elements';
 import Places from '../screens/ExtraComponent/Places';
 
+//Denne komponent fremviser menu af studierabater, som de studierende kan modtage.
+
 export default class Studierabat extends Component {
   //Denne del rendere skærmen
   render() {

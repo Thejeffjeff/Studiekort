@@ -10,6 +10,8 @@ import AuthLoadingScreen from './screens/AuthLoadingScreen';
 import SignInScreen from './screens/SignInScreen';
 import DrawerMenuContent from './menus/DrawerMenu';
 
+//Dette er Appkomponenten, som sætter strukturen af hele applikationen.
+
 const AppStack = createStackNavigator();
 const AuthStack = createStackNavigator();
 
@@ -17,7 +19,7 @@ type Props = {
   navigation: StackNavigationProp<ParamListBase>;
 };
 
-//AuthStackComponent som bliver kaldt længere nede
+//AuthStackComponent som bliver kaldt længere nede. Komponenten er opbygningen på appliaktionen, hvor der initialiseres authLoadingScreen som start..
 const AuthStackComponent = ({navigation}: Props) => {
   navigation.setOptions({
     headerShown: false,

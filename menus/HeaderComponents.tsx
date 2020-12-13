@@ -4,7 +4,7 @@ import * as React from 'react';
 import {Icon} from 'react-native-elements';
 import {useNavigation, ParamListBase} from '@react-navigation/native';
 import {DrawerNavigationProp} from '@react-navigation/drawer';
-
+//HeaderComponenten, er den som er med til at fremvise titlen i forhold til hvilken komponent man er i. 
 export function DrawerToggle() {
   const navigation: DrawerNavigationProp<ParamListBase> = useNavigation();
 

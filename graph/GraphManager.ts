@@ -1,6 +1,8 @@
 import {Client} from '@microsoft/microsoft-graph-client';
 import {GraphAuthProvider} from './GraphAuthProvider';
 
+//Disse er get-metoder som gør det muligt for graph at hente bestemte informationer fra outlook
+
 // Set the authProvider to an instance
 // of GraphAuthProvider
 const clientOptions = {

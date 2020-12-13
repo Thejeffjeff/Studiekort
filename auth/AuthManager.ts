@@ -4,6 +4,7 @@ import {Platform} from 'react-native';
 import moment from 'moment';
 
 import {AuthConfig} from './AuthConfig';
+// AuthManager er den som håndtere log ind og log ud. Yderligere sørger den for at man er logget ved at den hele tiden refresher hver 5. minut
 
 const config: AuthConfiguration = {
   clientId: AuthConfig.appId,

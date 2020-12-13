@@ -11,7 +11,7 @@ import {
 import {NavigationContext} from '@react-navigation/native';
 import {AuthManager} from '../auth/AuthManager';
 
-//Denne komponent, er her man kan logge ind
+//Denne komponent, sørger for at man kan logge ind.
 export default class SignInScreen extends React.Component {
   static contextType = NavigationContext;
 
@@ -21,7 +21,8 @@ export default class SignInScreen extends React.Component {
   // Asynkron kald som henter metoden fra Authmanager
   _signInAsync = async () => {
     const navigation = this.context;
-    //prøver at lave et kalder til signInAsycn, hvis det lykkes routeres den til vores main som er vores DrawerMenu ellers skal den slå fejl
+    //Der prøves at lave et kalder til signInAsycn.
+     //hvis det lykkes routeres den til vores main som er vores DrawerMenu ellers skal den slå fejl
     try {
       await AuthManager.signInAsync();
 
